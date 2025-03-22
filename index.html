@@ -168,23 +168,6 @@
   <div class="message" id="mensajeRespuesta"></div>
 
   <script>
-    const audio = document.getElementById('miAudio');
-        const playBtn = document.getElementById('playBtn');
-        const pauseBtn = document.getElementById('pauseBtn');
-        const stopBtn = document.getElementById('stopBtn');
-
-        playBtn.addEventListener('click', function() {
-            audio.play();
-        });
-
-        pauseBtn.addEventListener('click', function() {
-            audio.pause();
-        });
-
-        stopBtn.addEventListener('click', function() {
-            audio.pause();
-            audio.currentTime = 0; // Reinicia el audio al principio
-        });
     function createHeart() {
       const heart = document.createElement('div');
       heart.classList.add('heart');
